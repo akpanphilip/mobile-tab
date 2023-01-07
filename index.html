@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      box-sizing: border-box;
+    }
+    .footer-tab-links {
+      position: fixed;
+      bottom: 5px;
+      /* left: 0; */
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.233);
+      height: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: #fff;
+      z-index: 500;
+    }
+    .footer-tab-link {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: rgb(163, 162, 162);
+      font-weight: normal;
+      text-decoration: none;
+    }
+    .footer-tab-icon {
+      margin-bottom: 2px;
+    }
+    .footer-tab-icon i {
+      font-size: 30px;
+    }
+    .footer-tab-text {
+      font-size: 12px;
+      font-family: cursive;
+    }
+    .active-tab-link {
+      color: teal;
+    }
+    .footer-active-dot {
+      width: 7px;
+      height: 7px;
+      background: teal;
+      border-radius: 50px;
+    }
+  </style>
+  <body>
+    <p style="padding: 20px; font-size: 12px; text-align: justify">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ea quidem
+      necessitatibus consequatur, unde laboriosam doloribus consectetur tempore
+      et cum ex fugiat natus pariatur soluta reprehenderit cumque incidunt quasi
+      ab dolores! Soluta perferendis optio totam odio dolorem tempora inventore
+      molestias officia officiis, sapiente ea voluptates temporibus a corrupti
+      libero aut error, esse eligendi mollitia omnis quia necessitatibus.
+      Officiis in similique nesciunt tempora porro quae at repellendus
+      excepturi. Reiciendis atque repudiandae ipsum, aliquid molestias dolore
+      facilis quas quam, ut nemo odio aperiam nisi. Ad minus dicta qui
+      perspiciatis quis accusantium placeat autem amet fugiat accusamus
+      consectetur fugit optio, nulla modi quidem eos non tenetur. Facilis magnam
+      quo praesentium pariatur veritatis, labore repellat, quibusdam blanditiis
+      maiores vitae harum cupiditate, iusto libero similique ab deserunt
+      voluptatem perferendis facere impedit provident. Earum veritatis numquam
+      aut. Sunt ex ipsa illum accusantium ullam, voluptatem tenetur in
+      voluptatum eveniet corrupti facilis repellat quos libero veritatis neque,
+      atque id, tempora harum delectus. Ex consectetur error aperiam reiciendis
+      mollitia vero corrupti excepturi laborum alias dolorem harum, quia
+      recusandae fugit odio? Voluptatibus id quidem totam repellendus dolores
+      temporibus dolor perspiciatis porro harum sapiente ipsam, veritatis
+      doloremque, numquam maxime, nulla expedita repellat necessitatibus
+      excepturi dicta? Impedit cupiditate mollitia sequi corrupti harum?
+    </p>
+    <div class="footer-tab-links">
+      <a href="" class="footer-tab-link">
+        <span class="footer-tab-icon">
+          <i class="bx bx-home-alt"></i>
+        </span>
+        <span class="footer-tab-text text-home"> Home </span>
+      </a>
+      <a href="" class="footer-tab-link">
+        <span class="footer-tab-icon">
+          <i class="bx bx-tachometer"></i>
+        </span>
+        <span class="footer-tab-text text-plans"> Plans </span>
+      </a>
+      <a href="" class="footer-tab-link">
+        <span class="footer-tab-icon">
+          <i class="bx bx-wallet"></i>
+        </span>
+        <span class="footer-tab-text text-wallet"> Wallet </span>
+      </a>
+      <a href="" class="footer-tab-link active-tab-link">
+        <span class="footer-tab-icon">
+          <i class="bx bx-receipt"></i>
+        </span>
+        <span class="footer-active-dot"></span>
+        <!-- <span class="footer-tab-text text-utility"> Utility </span> -->
+      </a>
+      <a href="" class="footer-tab-link">
+        <span class="footer-tab-icon">
+          <i class="bx bxs-user-circle"></i>
+        </span>
+        <span class="footer-tab-text text-account"> Account </span>
+      </a>
+    </div>
+  </body>
+</html>
